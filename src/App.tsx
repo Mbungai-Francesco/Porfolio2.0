@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { cn } from './utils/cn'
-import Home from './pages/Home'
-import About from './pages/About'
+import { Home, About, Projects } from './pages'
 import { ArrowUp } from 'lucide-react'
 
 function App() {
@@ -27,6 +26,7 @@ function App() {
       <div className={cn(`font-poppins relative z- scroll-smooth `)} id='home'>
         <Home/>
         <About />
+        <Projects />
         <a className={cn(`p-2 animate-bounce shadow-lg bg-black/70 aspect-square w-fit rounded-full fixed z-10 right-4 bottom-4 cursor-pointer`)} href='#home'>
           <ArrowUp className={cn(`text-white`)}/>
         </a>
