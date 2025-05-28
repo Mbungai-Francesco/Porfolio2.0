@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-poppins: 'Poppins';
+}
+
+@layer base{
+  .links{
+    @apply text-xl font-medium text-gray-600 hover:text-gray-900 transition-colors
+  }
+}
