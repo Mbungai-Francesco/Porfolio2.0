@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base{
+  .mid-text{
+    @apply text-black/70
+  }
+}

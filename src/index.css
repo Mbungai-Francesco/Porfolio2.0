@@ -12,4 +12,7 @@
   .links{
     @apply text-xl font-medium text-gray-600 hover:text-gray-900 transition-colors
   }
+  .text-gold{
+    @apply text-orange-400
+  }
 }

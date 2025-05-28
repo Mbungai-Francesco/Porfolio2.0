@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <header className="">
         <div className="flex justify-between items-center">
-          <h1 className="text-4xl font-medium text-gray-600 cursor-pointer">John Doe</h1>
+          <h1 className="text-4xl font-medium text-gray-600 cursor-pointer">F. Francesco </h1>
           <nav className="hidden md:block">
             <ul className="flex space-x-8">
               <li><a href="#about" className="links">About</a></li>
