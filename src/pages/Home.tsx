@@ -2,8 +2,13 @@ import { Github, Linkedin } from 'lucide-react'
 import Header from '../components/Header'
 import { cn } from '../utils/cn'
 import myPic from '../assets/images/myPic.jpg'
+import cv from "../assets/FM2.0.pdf"
 
 const Home = () => {
+  const handleCv = () => {
+    window.open(cv,"_blank")
+  };
+
   return (
     <div className={cn`py-20 px-60 h-screen flex flex-col`}>
       <Header />
@@ -20,7 +25,7 @@ const Home = () => {
             Fullstack Developer
           </p>
           <div className={cn(`flex gap-4 justify-center`)}>
-            <button className="py-4 px-5 border rounded-full cursor-pointer">
+            <button onClick={handleCv} className="py-4 px-5 border rounded-full cursor-pointer">
               Download CV
             </button>
             <a href="Contact" className='py-4 px-5 text-white bg-black/70 rounded-full cursor-pointer'>
