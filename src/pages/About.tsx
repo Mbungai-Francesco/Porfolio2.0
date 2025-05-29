@@ -14,15 +14,15 @@ const About = () => {
         <img src={me} alt="" className="aspect-square w-80 rounded-2xl" />
         <div className={cn(`py-8 flex flex-col h-full`)}>
           <div className={cn(`w-full flex items-center justify-between gap-8 grow py-5`)}>
-            <div className={cn(`w-1/2 border p-2 rounded-2xl h-full flex flex-col items-center py-4`)}>
+            <div className={cn(`w-1/2 border p-2 rounded-3xl h-full flex flex-col items-center py-4`)}>
               <Award />
-              <p className={cn(`font-medium text-lg text-gold`)}>Experience</p>
+              <p className={cn(`font-medium text-xl text-gold`)}>Experience</p>
               <p className={cn(`mid-text`)}>2+ Years</p>
               <p className={cn(`mid-text`)}>FullStack Development</p>
             </div>
-            <div className={cn(`w-1/2 border p-2 rounded-2xl h-full flex flex-col items-center py-4`)}>
+            <div className={cn(`w-1/2 border p-2 rounded-3xl h-full flex flex-col items-center py-4`)}>
               <BookCopy />
-              <p className={cn(`font-medium text-lg text-gold`)}>Education</p>
+              <p className={cn(`font-medium text-xl text-gold`)}>Education</p>
               <p className={cn(`mid-text`)}>Software Engineering Degree</p>
               {/* <p className={cn(`mid-text`)}>FullStack Development</p> */}
             </div>
