@@ -3,14 +3,18 @@ import Header from '../components/Header'
 import { cn } from '../utils/cn'
 import myPic from '../assets/images/myPic.jpg'
 import cv from '../assets/FM2.0.pdf'
+import { useAppContext } from '@/hooks/useAppContext'
 
 const Home = () => {
   const handleCv = () => {
     window.open(cv, '_blank')
   }
 
+  const { theme } = useAppContext()
+
   return (
-    <div className={cn`py-20 px-60 h-screen flex flex-col`}>
+   <div className={cn(``)}>
+     <div className={cn(`py-20 px-60 h-screen flex flex-col`)}>
       <Header />
       <main className="w-full grow flex justify-center items-center gap-14">
         <img
@@ -52,6 +56,7 @@ const Home = () => {
         </div>
       </main> 
     </div>
+   </div>
   )
 }
 

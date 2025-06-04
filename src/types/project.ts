@@ -1,5 +1,5 @@
 export interface Project{
-  img ?: string
+  img : string
   title : string
   sum : string
   langs : string[]
