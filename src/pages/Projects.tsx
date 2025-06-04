@@ -87,7 +87,7 @@ const Projects = () => {
   ]
 
   return (
-    <div className={cn(`py-14 px-30 h-screen flex flex-col`)}>
+    <div className={cn(`head`)}>
       <div className={cn(`w-fit mx-auto text-center flex flex-col gap-3`)}>
         <p className={cn(`text-black/70 text-base`)}>Browse My Recent</p>
         <h2 className={cn(`text-5xl font-semibold`)}>Projects</h2>

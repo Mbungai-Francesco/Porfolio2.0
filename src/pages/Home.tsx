@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
    <div className={cn(``)}>
-     <div className={cn(`py-20 px-60 h-screen flex flex-col`)}>
+     <div className={cn(`head`)}>
       <Header />
       <main className="w-full grow flex justify-center items-center gap-14">
         <img

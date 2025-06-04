@@ -6,6 +6,8 @@
 
 @theme {
   --font-poppins: 'Poppins';
+  --breakpoint-md5: '896px';
+  --breakpoint-lg5: '1152px';
 }
 
 @layer base{
@@ -14,6 +16,9 @@
   }
   .text-gold{
     @apply text-orange-400
+  }
+  .head{
+    @apply py-20 px-10 md:px-20 h-screen flex flex-col bg-pink-400  md5:bg-amber-500
   }
 }
 
