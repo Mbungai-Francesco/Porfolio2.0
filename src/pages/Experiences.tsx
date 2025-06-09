@@ -122,19 +122,19 @@ const icons = [
 
 const Experiences = () => {
   return (
-    <div className={cn(`head py-10`)}>
+    <div className={cn(`head py-10 md:h-screen`)}>
       <div className={cn(`w-fit mx-auto text-center flex flex-col gap-3`)}>
         <p className={cn(`text-black/70 text-base`)}>Explore My</p>
         <h2 className={cn(`text-5xl font-semibold`)}>Experiences</h2>
       </div>
       <div
         className={cn(
-          `w-full flex items-start justify-between gap-8 grow py-5`,
+          `w-full flex flex-col md:flex-row items-start justify-between gap-8 grow py-5`,
         )}
       >
         <div
           className={cn(
-            `w-1/2 border p-2 rounded-3xl h-fit flex flex-col items-center py-4`,
+            `w-full md:w-1/2 border p-2 rounded-3xl h-fit flex flex-col items-center py-4`,
           )}
         >
           <p className={cn(`font-medium text-2xl text-gold mb-2`)}>
@@ -148,7 +148,7 @@ const Experiences = () => {
         </div>
         <div
           className={cn(
-            `w-1/2 border p-2 rounded-3xl h-fit flex flex-col items-center py-4`,
+            `w-full md:w-1/2 border p-2 rounded-3xl h-fit flex flex-col items-center py-4`,
           )}
         >
           <p className={cn(`font-medium text-2xl text-gold mb-2`)}>Tools</p>
@@ -159,7 +159,7 @@ const Experiences = () => {
           </div>
         </div>
       </div>
-      <div className="relative flex h-screen flex-col items-center justify-center overflow-hidden p-8 text-center">
+      <div className="relative hidden md:flex h-screen flex-col items-center justify-center overflow-hidden p-8 text-center">
         {/* Floating tech stack items */}
         {icons.map((icon, index) => {
           // const x2 = [Math.random() * 30, Math.random() * 20 + 70]
