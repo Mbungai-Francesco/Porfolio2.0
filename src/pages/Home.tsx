@@ -3,14 +3,14 @@ import Header from '../components/Header'
 import { cn } from '../utils/cn'
 import myPic from '../assets/images/myPic.jpg'
 import cv from '../assets/FM2.0.pdf'
-import { useAppContext } from '@/hooks/useAppContext'
+// import { useAppContext } from '@/hooks/useAppContext'
 
 const Home = () => {
   const handleCv = () => {
     window.open(cv, '_blank')
   }
 
-  const { theme } = useAppContext()
+  // const { theme } = useAppContext()
 
   return (
    <div className={cn(``)}>
