@@ -18,7 +18,7 @@
     @apply text-orange-400
   }
   .head{
-    @apply py-20 px-10 xl:px-20 h-screen flex flex-col
+    @apply py-20 px-10 xl:px-20 min-h-screen flex flex-col
   }
 }
 

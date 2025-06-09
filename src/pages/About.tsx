@@ -10,17 +10,17 @@ const About = () => {
         <p className={cn(`text-black/70 text-base`)}>Get to know more</p>
         <h2 className={cn(`text-5xl font-semibold`)}>About Me</h2>
       </div>
-      <div className="items-center flex m-auto w-full gap-8">
-        <img src={me} alt="" className="aspect-square w-80 rounded-2xl" />
-        <div className={cn(`py-8 flex flex-col h-full`)}>
-          <div className={cn(`w-full flex items-center justify-between gap-8 grow py-5`)}>
-            <div className={cn(`w-1/2 border p-2 rounded-3xl h-full flex flex-col items-center py-4`)}>
+      <div className="items-center flex flex-col lg:flex-row  m-auto w-full md:gap-8">
+        <img src={me} alt="" className="aspect-square w-80 rounded-2xl mt-6" />
+        <div className={cn(`py-4 md:py-8 flex flex-col h-full`)}>
+          <div className={cn(`w-full flex flex-col sm:flex-row items-center justify-between gap-8 grow py-5`)}>
+            <div className={cn(`w-full sm:w-1/2 border p-2 rounded-3xl h-full flex flex-col items-center py-4 text-center`)}>
               <Award />
               <p className={cn(`font-medium text-xl text-gold`)}>Experience</p>
               <p className={cn(`mid-text`)}>2+ Years</p>
               <p className={cn(`mid-text`)}>FullStack Development</p>
             </div>
-            <div className={cn(`w-1/2 border p-2 rounded-3xl h-full flex flex-col items-center py-4`)}>
+            <div className={cn(`w-full sm:w-1/2 border p-2 rounded-3xl h-full flex flex-col items-center py-4 text-center`)}>
               <BookCopy />
               <p className={cn(`font-medium text-xl text-gold`)}>Education</p>
               <p className={cn(`mid-text`)}>Software Engineering Degree</p>
