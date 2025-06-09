@@ -1,14 +1,12 @@
-import { useAppContext } from "../hooks/useAppContext"
-import { Label } from "@/components/ui/label"
-import { Switch } from "@/components/ui/switch"
+// import { useAppContext } from "../hooks/useAppContext"
 import { cn } from "@/utils/cn"
-import { Menu, Moon, SunMedium } from "lucide-react"
+import { Menu} from "lucide-react"
 import { useState } from "react"
 import { motion } from 'motion/react'
 
 const Header = () => {
 
-  const { theme, setTheme } = useAppContext()
+  // const { theme, setTheme } = useAppContext()
   const [ open, setOpen] = useState(false)
 
   return (

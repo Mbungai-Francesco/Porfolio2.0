@@ -14,6 +14,9 @@
   .links{
     @apply text-lg sm:text-xl font-medium text-gray-600 hover:text-gray-900 transition-colors
   }
+  .links.contact{
+    @apply text-base sm:text-xl
+  }
   .text-gold{
     @apply text-orange-400
   }

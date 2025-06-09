@@ -25,22 +25,22 @@ const Contact = () => {
       <div className={cn(`flex flex-col space-y-5`)}>
         <ul className="flex space-x-8 w-full justify-center">
           <li>
-            <a href="#about" className="links">
+            <a href="#about" className="links contact">
               About
             </a>
           </li>
           <li>
-            <a href="#experience" className="links">
+            <a href="#experience" className="links contact">
               Experience
             </a>
           </li>
           <li>
-            <a href="#projects" className="links">
+            <a href="#projects" className="links contact">
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact" className="links">
+            <a href="#contact" className="links contact">
               Contact
             </a>
           </li>
