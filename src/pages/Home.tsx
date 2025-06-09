@@ -16,11 +16,11 @@ const Home = () => {
    <div className={cn(``)}>
      <div className={cn(`head`)}>
       <Header />
-      <main className="w-full grow flex justify-center items-center gap-14">
+      <main className="w-full grow flex flex-col lg:flex-row justify-center items-center gap-14">
         <img
           src={myPic}
           alt="My Image"
-          className="w-90 rounded-full aspect-square"
+          className="w-90 rounded-full aspect-square mt-6"
         />
         <div className={cn(`text-center flex flex-col gap-4`)}>
           <p className={cn(`font-medium opacity-70`)}>Hello World! I'm</p>
