@@ -17,9 +17,9 @@ const Project = ({ props }: prop) => {
           <p className={cn(`text-xl`)}>{props.title}</p>
           <p className={cn(`text-black/60`)}>{props.sum}</p>
         </div>
-        <div className="flex gap-2 my-2">
+        <div className="flex gap-2 my-2 flex-wrap">
           {langs.map((lang) => (
-            <p className={cn(`text-xl`)}>{lang}</p>
+            <p className={cn(`text:lg sm:text-xl`)}>{lang}</p>
           ))}
         </div>
         <div className={cn(`flex gap-10 `)}>

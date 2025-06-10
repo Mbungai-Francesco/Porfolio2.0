@@ -134,13 +134,13 @@ const Experiences = () => {
       >
         <div
           className={cn(
-            `w-full md:w-1/2 border p-2 rounded-3xl h-fit flex flex-col items-center py-4`,
+            `w-full md:w-1/2 border px-0 rounded-3xl h-fit flex flex-col items-center py-4`,
           )}
         >
           <p className={cn(`font-medium text-2xl text-gold mb-2`)}>
             FullStack Development
           </p>
-          <div className={cn(`grid grid-cols-2 lg:grid-cols-3 w-full px-5 xl:px-10`)}>
+          <div className={cn(`grid grid-cols-2 gap-1 lg:grid-cols-3 w-full px-5 xl:px-10`)}>
             {techStack.filter(tech => tech.type === "tech").map((tech, index) => (
               <Stack key={index} stack={tech} />
             ))}
@@ -148,7 +148,7 @@ const Experiences = () => {
         </div>
         <div
           className={cn(
-            `w-full md:w-1/2 border p-2 rounded-3xl h-fit flex flex-col items-center py-4`,
+            `w-full md:w-1/2 border rounded-3xl h-fit flex flex-col items-center py-4`,
           )}
         >
           <p className={cn(`font-medium text-2xl text-gold mb-2`)}>Tools</p>

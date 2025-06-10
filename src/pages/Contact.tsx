@@ -54,7 +54,7 @@ const Contact = () => {
         </li> */}
         </ul>
         <p className={cn(`text-center text-sm text-black/60`)}>
-          Copyright 2025 FORCHE Mbungai. All Rights Reserved.
+          Copyright&#64; 2025 FORCHE Mbungai. All Rights Reserved.
         </p>
       </div>
     </div>
