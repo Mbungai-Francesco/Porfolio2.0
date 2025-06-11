@@ -21,14 +21,6 @@ const Header = () => {
             <li><a href="#experience" className="links">Experience</a></li>
             <li><a href="#projects" className="links">Projects</a></li>
             <li><a href="#contact" className="links">Contact</a></li>
-            {/* <li>
-              <div className="flex items-center space-x-2">
-                <Switch id="airplane-mode" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
-                <Label htmlFor="airplane-mode">
-                  {theme == 'dark' ? <Moon /> : <SunMedium />}
-                </Label>
-              </div>
-            </li> */}
           </ul>
           <motion.ul className={cn(`absolute text-center right-0 top-10`
 , open ? 'block' : 'hidden', `lg:hidden`
